@@ -15,8 +15,7 @@ Termux password protected script with login animation
 [+] warning :- if anybody want to modify this script and want to 
     upload on own github then you guys make sure to give my original github link on your README.md
 
-    I'm recommend to Install Coding Keyboard: https://play.google.com/store/apps/details?id=com.ajay.prokeyboard
-    
+
 [+] install and use
 
     First Of All You Want To Install Some Pkgs..
@@ -28,6 +27,9 @@ Termux password protected script with login animation
     Done...
 
     After That-
+
+    I'm recommend to Install "Coding Keyboard for Programing"
+    
   
     git clone https://github.com/abhackerofficial/termux-login-3.0.1
 
