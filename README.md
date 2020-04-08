@@ -26,10 +26,9 @@ Termux password protected script with login animation
     4. pkg install git && pkg install nano
     Done...
 
-    After That-
-
     I'm recommend to Install "Coding Keyboard for Programing"
     
+    After That-
   
     git clone https://github.com/abhackerofficial/termux-login-3.0.1
 
