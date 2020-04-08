@@ -24,6 +24,8 @@ Termux password protected script with login animation
     3. pkg install toilet && apt update
     4. pkg install git && pkg install nano
     Done...
+
+    I'm recommend to Install Coding Keyboard: https://play.google.com/store/apps/details?id=com.ajay.prokeyboard
     
     After That-
   
