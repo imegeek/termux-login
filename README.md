@@ -28,6 +28,7 @@ Termux password protected script with login animation
 
     I'm recommend to Install "Coding Keyboard for Programing"
     
+
     After That-
   
     git clone https://github.com/abhackerofficial/termux-login-3.0.1
