@@ -7,7 +7,7 @@ Termux password protected script with login animation
 
    Termux is a Android emulator we can run many kali linux
    tools in termux (android) so here i am created a small 
-   python script which works as a login page like facebook/google.
+   python script which works as a login page likes facebook/google.
    
 
    Termux-login
