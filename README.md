@@ -19,11 +19,10 @@ Termux password protected script with login animation
 
     First Of All You Want To Install Some Pkgs..
     
-    1. pkg install python
-    2. pkg install python2
-    3. pkg install ruby
-    4. gem install lolcat
-    5. pkg install toilet
+    1. pkg install python && pkg install python2
+    2. pkg install ruby && gem install lolcat
+    3. pkg install toilet && apt update
+    4. pkg install git && pkg install nano
     Done...
     
     After That-
