@@ -34,7 +34,7 @@ Termux password protected script with login animation
     
     After That-
   
-    git clone 
+    git clone https://github.com/abhackerofficial/termux-login-3.0.1
 
     cd Termux-login
 
