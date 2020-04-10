@@ -1,4 +1,4 @@
-
+apt update
 apt install ruby 
 gem install lolcat
 pkg install toilet
