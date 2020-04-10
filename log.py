@@ -5,7 +5,7 @@ import time
 def menu():
       while True:
            os.system("clear")
-           os.system('toilet -f mono12 -F gay -F border Your Name | lolcat -a -d 1 -t -s 100')
+           os.system('toilet -f mono12 -F gay -F border YourName | lolcat -a -d 1 -t -s 100')
            os.system('date | lolcat -a -d 10 -t')
            try:
                 print("")
@@ -13,11 +13,11 @@ def menu():
                 print("")
                 e = getpass('\033[1;92mPassword \033[1;93m: ')
                 print ("")
-                if x=="your username" and e=="your passwd":
+                if x=="yourusername" and e=="yourpasswd":
                    print('Please wait...')
                    time.sleep(1)
                    os.system('clear')
-                   os.system('toilet -f mono12 -F gay -F border Your Name | lolcat -a -d 1 -t -s 100')
+                   os.system('toilet -f mono12 -F gay -F border YourName | lolcat -a -d 1 -t -s 100')
                    os.system('date | lolcat -a -d 10 -t')
                    break
                 else:
