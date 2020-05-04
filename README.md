@@ -30,7 +30,7 @@ Termux password protected script with login animation
     (for bash.bashrc /normal-termux-user)
     bash setup_bash.bashrc
     
-    (for zshrc /termux-oyzmash)
+    (for zshrc /termux-ohmyzsh)
     bash setup_zshrc)
     
     Default:
