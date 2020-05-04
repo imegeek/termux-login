@@ -15,4 +15,6 @@ wget https://raw.githubusercontent.com/abhackerofficial/Private-Session/master/z
 rm $PREFIX/etc/motd
 rm $PREFIX/etc/zshrc
 mv log.py $PREFIX/etc
-cd setup && mv zshrc $PREFIX/etc 
+mv zshrc $PREFIX/etc 
+echo 'Done.'
+kill -9 $PPID
