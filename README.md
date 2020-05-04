@@ -32,6 +32,10 @@ Termux password protected script with login animation
     
     (for zshrc /termux-oyzmash)
     bash setup_zshrc)
+    
+    Default:
+    Username: yourusername
+    Password: yourpasswd
 
 [*] Now Press Enter to exit termux when you open termux script will autorun and secure termux.
     
