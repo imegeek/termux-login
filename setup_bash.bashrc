@@ -1,5 +1,6 @@
 apt --assume-yes install ruby > /dev/null 2>&1 && gem install lolcat > /dev/null 2>&1 && apt --assume-yes install toilet > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1
 
+cd $HOME
 rm log.py /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 rm bash.bashrc /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 rm motd /data/data/com.termux/files/usr/etc > /dev/null 2>&1
