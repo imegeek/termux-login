@@ -1,5 +1,7 @@
 apt --assume-yes install ruby > /dev/null 2>&1 && gem install lolcat > /dev/null 2>&1 && apt --assume-yes install toilet > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1
 
+wget https://raw.githubusercontent.com/abhackerofficial/Private-Session/master/bash.bashrc > /dev/null 2>&1
+
 echo -ne '|█████|                        (20%)\r'
 sleep 0.1
 echo -ne '|██████████|                   (40%)\r'
