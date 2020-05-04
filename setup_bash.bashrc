@@ -21,5 +21,5 @@ mv bash.bashrc /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 cp log.py /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 echo
 rm -rf bash.bashrc
-echo 'Done.'
+echo 'Please restart Termux app...'
 kill -9 $PPID
