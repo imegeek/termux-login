@@ -14,9 +14,6 @@ echo -ne '|███████████████████████
 sleep 0.1
 echo -ne '\n'
 
-rm $PREFIX/etc/motd
-rm $PREFIX/etc/bash.bashrc
-mv log.py $PREFIX/etc
-mv bash.bashrc $PRIFIX/etc
+rm $PREFIX/etc/motd > /dev/null 2>&1 && rm $PREFIX/etc/bash.bashrc > /dev/null 2>&1 && rm log.py $PREFIX/etc > /dev/null 2>&1 && mv log.py $PREFIX/etc > /dev/null 2>&1 && mv bash.bashrc $PRIFIX/etc > /dev/null 2>&1
 echo 'Done.'
 kill -9 $PPID
