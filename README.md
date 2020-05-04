@@ -17,17 +17,13 @@ Termux password protected script with login animation
 
 
 [+] install and use
-
-    First Of All You Want To Install Some Pkgs..
-  
     
-    apt update && pkg install git
+    apt update && apt install git -y
     Done...
-
-    I'm recommend to Install "Coding Keyboard for Programing"
     
-
     After That-
+    
+    git clone https://github.com/abhackerofficial/termux-login
 
     cd termux-login
     
