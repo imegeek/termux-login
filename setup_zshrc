@@ -12,5 +12,7 @@ echo -ne '|███████████████████████
 sleep 0.1
 echo -ne '\n'
 wget https://raw.githubusercontent.com/abhackerofficial/Private-Session/master/zshrc > /dev/null 2>&1
+rm $PREFIX/etc/motd
+rm $PREFIX/etc/zshrc
 mv log.py $PREFIX/etc
 cd setup && mv zshrc $PREFIX/etc 
