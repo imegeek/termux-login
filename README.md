@@ -1,4 +1,4 @@
-termux-login-3.0.1 modified.
+termux-login modified.
 Termux password protected script with login animation
 
 
