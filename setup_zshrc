@@ -15,6 +15,7 @@ sleep 0.1
 echo -ne '\n'
 
 mv zshrc /data/data/com.termux/files/usr/etc > /dev/null 2>&1
+mv log.py /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 echo
 rm -rf zshrc
 echo 'Done.'
