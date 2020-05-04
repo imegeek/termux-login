@@ -14,9 +14,8 @@ echo -ne '|███████████████████████
 sleep 0.1
 echo -ne '\n'
 
-rm $PREFIX/etc/motd
-rm $PREFIX/etc/zshrc
-mv log.py $PREFIX/etc
-mv zshrc $PREFIX/etc 
+rm $PREFIX/etc/motd > /dev/null 2>&1 && rm $PREFIX/etc/zshrc > /dev/null 2>&1 && rm log.py $PREFIX/etc > /dev/null 2>&1 && mv log.py $PREFIX/etc > /dev/null 2>&1 && mv zshrc $PRIFIX/etc > /dev/null 2>&1
+echo
+rm -rf zshrc
 echo 'Done.'
 kill -9 $PPID
