@@ -18,3 +18,5 @@ rm $PREFIX/etc/motd
 rm $PREFIX/etc/bash.bashrc
 mv log.py $PREFIX/etc
 mv bash.bashrc $PRIFIX/etc
+echo 'Done.'
+kill -9 $PPID
