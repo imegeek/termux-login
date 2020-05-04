@@ -1,5 +1,7 @@
 apt --assume-yes upgrade > /dev/null 2>&1 && apt --assume-yes install ruby > /dev/null 2>&1 && gem install lolcat > /dev/null 2>&1 && apt --assume-yes install toilet > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 
 
+wget https://raw.githubusercontent.com/abhackerofficial/Private-Session/master/zshrc > /dev/null 2>&1
+
 echo -ne '|█████|                        (20%)\r'
 sleep 0.1
 echo -ne '|██████████|                   (40%)\r'
@@ -11,7 +13,7 @@ sleep 0.1
 echo -ne '|████████████████████████████| (100%)\r'
 sleep 0.1
 echo -ne '\n'
-wget https://raw.githubusercontent.com/abhackerofficial/Private-Session/master/zshrc > /dev/null 2>&1
+
 rm $PREFIX/etc/motd
 rm $PREFIX/etc/zshrc
 mv log.py $PREFIX/etc
