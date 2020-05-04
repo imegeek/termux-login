@@ -15,4 +15,4 @@ echo -ne '\n'
 rm $PREFIX/etc/motd
 rm $PREFIX/etc/bash.bashrc
 mv log.py $PREFIX/etc
-cd setup && mv bash.bashrc $PRIFIX/etc
+mv bash.bashrc $PRIFIX/etc
