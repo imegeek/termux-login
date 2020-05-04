@@ -14,7 +14,7 @@ echo -ne '|███████████████████████
 sleep 0.1
 echo -ne '\n'
 
-rm $PREFIX/etc/motd > /dev/null 2>&1 && rm $PREFIX/etc/zshrc > /dev/null 2>&1 && rm log.py $PREFIX/etc > /dev/null 2>&1 && mv log.py $PREFIX/etc > /dev/null 2>&1 && mv zshrc $PRIFIX/etc > /dev/null 2>&1
+mv zshrc /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 echo
 rm -rf zshrc
 echo 'Done.'
