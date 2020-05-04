@@ -27,10 +27,10 @@ Termux password protected script with login animation
 
     cd termux-login
     
-    (for bash.bashrc)
+    (for bash.bashrc /normal-termux-user)
     bash setup_bash.bashrc
     
-    (for zshrc)
+    (for zshrc /termux-oyzmash)
     bash setup_zshrc)
 
 [*] Now Press Enter to exit termux when you open termux script will autorun and secure termux.
