@@ -19,32 +19,23 @@ Termux password protected script with login animation
 [+] install and use
 
     First Of All You Want To Install Some Pkgs..
+  
     
-    1. pkg install python && pkg install python2
-    2. pkg install ruby && gem install lolcat
-    3. pkg install toilet && apt update
-    4. pkg install git && pkg install nano
+    apt update && pkg install git
     Done...
 
     I'm recommend to Install "Coding Keyboard for Programing"
     
 
     After That-
-  
-    git clone https://github.com/abhackerofficial/termux-login-3.0.1
 
-    cd Termux-login
+    cd termux-login
+    
+    (for bash.bashrc)
+    bash setup_bash.bashrc
+    
+    (for zshrc)
+    bash setup_zshrc)
 
-    mv log.py $HOME
-
-    Now you want autorun this log.py so follow this
-
-    cd ..
-    cd usr/etc/
-    nano bash.bashrc
-    (type here in bottom of texts) python log.py
-
-    press ctrl + s to save and then x to exit.
-
-    Now exit termux when you open termux script will autorun and secure termux.
+[*] Now Press Enter to exit termux when you open termux script will autorun and secure termux.
     
