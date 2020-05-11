@@ -38,7 +38,7 @@ echo -ne 'Downloading files... |████████████████
 sleep 0
 echo -ne 'Downloading files... |████████████████████████████|      (90%)\r' | lolcat
 sleep 0
-echo -ne 'Downloading files... |████████████████████████████████| (100%)\r' | lolcat
+echo -ne 'Downloading complete |████████████████████████████████| (100%)\r' | lolcat
 sleep 0
 echo -ne '\n'
 
