@@ -1,4 +1,10 @@
+echo "Downloading Requirements..."
+
 apt --assume-yes install ruby > /dev/null 2>&1 && gem install lolcat > /dev/null 2>&1 && apt --assume-yes install toilet > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1
+
+echo
+echo "Downloading Files..."
+echo
 
 cd $HOME
 rm log.py /data/data/com.termux/files/usr/etc > /dev/null 2>&1
