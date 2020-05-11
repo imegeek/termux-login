@@ -3,10 +3,6 @@ echo 'Downloading requirements...' | lolcat
 
 apt --assume-yes upgrade > /dev/null 2>&1 && apt --assume-yes install ruby > /dev/null 2>&1 && gem install lolcat > /dev/null 2>&1 && apt --assume-yes install toilet > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 
 
-echo
-echo 'Downloading files...' | lolcat
-echo
-
 cd $HOME
 rm log.py /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 rm zshrc /data/data/com.termux/files/usr/etc > /dev/null 2>&1
@@ -16,25 +12,27 @@ mv zshrc /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 wget https://raw.githubusercontent.com/abhackerofficial/termux-login/master/log.py > /dev/null 2>&1
 mv log.py /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 
-echo -ne '|████|                              (10%)\r' | lolcat
+echo
+
+echo -ne 'Downloading files... |████|                              (10%)\r' | lolcat
 sleep 0
-echo -ne '|██████|                            (20%)\r' | lolcat
+echo -ne 'Downloading files... |██████|                            (20%)\r' | lolcat
 sleep 0
-echo -ne '|████████|                          (30%)\r' | lolcat
+echo -ne 'Downloading files... |████████|                          (30%)\r' | lolcat
 sleep 0
-echo -ne '|███████████|                       (40%)\r' | lolcat
+echo -ne 'Downloading files... |███████████|                       (40%)\r' | lolcat
 sleep 0
-echo -ne '|██████████████|                    (50%)\r' | lolcat
+echo -ne 'Downloading files... |██████████████|                    (50%)\r' | lolcat
 sleep 0
-echo -ne '|█████████████████|                 (60%)\r' | lolcat
+echo -ne 'Downloading files... |█████████████████|                 (60%)\r' | lolcat
 sleep 0
-echo -ne '|█████████████████████|             (70%)\r' | lolcat
+echo -ne 'Downloading files... |█████████████████████|             (70%)\r' | lolcat
 sleep 0
-echo -ne '|█████████████████████████|         (80%)\r' | lolcat
+echo -ne 'Downloading files... |█████████████████████████|         (80%)\r' | lolcat
 sleep 0
-echo -ne '|████████████████████████████|      (90%)\r' | lolcat
+echo -ne 'Downloading files... |████████████████████████████|      (90%)\r' | lolcat
 sleep 0
-echo -ne '|████████████████████████████████| (100%)\r' | lolcat
+echo -ne 'Downloading files... |████████████████████████████████| (100%)\r' | lolcat
 sleep 0
 echo -ne '\n'
 
