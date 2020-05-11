@@ -1,9 +1,9 @@
-echo "Downloading Requirements..."
+echo "Downloading requirements..."
 
 apt --assume-yes install ruby > /dev/null 2>&1 && gem install lolcat > /dev/null 2>&1 && apt --assume-yes install toilet > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1
 
 echo
-echo "Downloading Files..."
+echo "Downloading files..."
 echo
 
 cd $HOME
