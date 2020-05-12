@@ -19,8 +19,7 @@ wget https://raw.githubusercontent.com/abhackerofficial/termux-login/master/log.
 mv log.py /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 
 echo
-
-wget https://raw.githubusercontent.com/abhackerofficial/progressbar/master/progress_v1.0 > /dev/null 2>&1 && bash progress_v1.0
+wget https://raw.githubusercontent.com/abhackerofficial/progressbar/master/progress_v1.0 > /dev/null 2>&1 && bash progress_v1.0 && rm progress_v1.0
 
 echo
 echo 'Please restart Termux app...' | lolcat
