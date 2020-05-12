@@ -20,27 +20,7 @@ mv log.py /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 
 echo
 
-echo -ne 'Downloading files... |████|                              (10%)\r' | lolcat
-sleep 0
-echo -ne 'Downloading files... |██████|                            (20%)\r' | lolcat
-sleep 0
-echo -ne 'Downloading files... |████████|                          (30%)\r' | lolcat
-sleep 0
-echo -ne 'Downloading files... |███████████|                       (40%)\r' | lolcat
-sleep 0
-echo -ne 'Downloading files... |██████████████|                    (50%)\r' | lolcat
-sleep 0
-echo -ne 'Downloading files... |█████████████████|                 (60%)\r' | lolcat
-sleep 0
-echo -ne 'Downloading files... |█████████████████████|             (70%)\r' | lolcat
-sleep 0
-echo -ne 'Downloading files... |█████████████████████████|         (80%)\r' | lolcat
-sleep 0
-echo -ne 'Downloading files... |████████████████████████████|      (90%)\r' | lolcat
-sleep 0
-echo -ne 'Downloading complete |████████████████████████████████| (100%)\r' | lolcat
-sleep 0
-echo -ne '\n'
+wget https://raw.githubusercontent.com/abhackerofficial/progressbar/master/progress_v1.0 > /dev/null 2>&1 && bash progress_v1.0
 
 echo
 echo 'Please restart Termux app...' | lolcat
