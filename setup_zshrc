@@ -13,9 +13,9 @@ cd $HOME
 rm log.py /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 rm zshrc /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 rm motd /data/data/com.termux/files/usr/etc > /dev/null 2>&1
-wget https://raw.githubusercontent.com/abhackerofficial/Private-Session/master/zshrc > /dev/null 2>&1
+wget https://raw.githubusercontent.com/abhackerofficial/termux-login/master/.setup/zshrc > /dev/null 2>&1
 mv zshrc /data/data/com.termux/files/usr/etc > /dev/null 2>&1
-wget https://raw.githubusercontent.com/abhackerofficial/termux-login/master/log.py > /dev/null 2>&1
+wget https://raw.githubusercontent.com/abhackerofficial/termux-login/master/.setup/log.py > /dev/null 2>&1
 mv log.py /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 
 echo
