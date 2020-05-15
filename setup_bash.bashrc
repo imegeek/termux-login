@@ -7,7 +7,7 @@
 echo
 echo -e '\033[1;91mDownloading requirements...'
 
-apt --assume-yes install ruby > /dev/null 2>&1 && gem install lolcat > /dev/null 2>&1 && apt --assume-yes install toilet > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1
+apt --assume-yes install ruby > /dev/null 2>&1 && gem install lolcat > /dev/null 2>&1 && apt --assume-yes install toilet > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1
 
 cd $HOME
 rm log.py /data/data/com.termux/files/usr/etc > /dev/null 2>&1
