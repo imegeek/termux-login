@@ -10,9 +10,9 @@ echo -e '\033[1;91mDownloading requirements...'
 apt --assume-yes upgrade > /dev/null 2>&1 && apt --assume-yes install ruby > /dev/null 2>&1 && gem install lolcat > /dev/null 2>&1 && apt --assume-yes install toilet > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1
 
 cd $HOME
-rm log.py /data/data/com.termux/files/usr/etc > /dev/null 2>&1
-rm zshrc /data/data/com.termux/files/usr/etc > /dev/null 2>&1
-rm -rf motd /data/data/com.termux/files/usr/etc > /dev/null 2>&1
+cd $HOME && cd ../usr/etc && rm log.py > /dev/null 2>&1
+cd $HOME && cd ../usr/etc && rm zshrc > /dev/null 2>&1
+cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 wget https://raw.githubusercontent.com/abhackerofficial/termux-login/master/.setup/zshrc > /dev/null 2>&1
 mv zshrc /data/data/com.termux/files/usr/etc > /dev/null 2>&1
 wget https://raw.githubusercontent.com/abhackerofficial/termux-login/master/.setup/log.py > /dev/null 2>&1
