@@ -8,8 +8,7 @@ echo
 echo -e '\033[1;91mDownloading requirements...'
 connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
 if [[ "$connection" != 0 ]]
-then clear
-echo
+then echo
 echo -e "\033[1;91m[\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
    exit
 fi
