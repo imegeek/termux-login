@@ -5,7 +5,7 @@
 # Script follows here:
 
 echo
-echo -e '\033[1;91mDownloading requirements...'
+echo -e '\033[1;92mDownloading requirements...'
 connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
 if [[ "$connection" != 0 ]]
 then echo
@@ -27,5 +27,5 @@ echo
 wget https://raw.githubusercontent.com/abhackerofficial/progressbar/master/progress_v1.0 > /dev/null 2>&1 && bash progress_v1.0 && rm progress_v1.0
 
 echo
-echo 'Please restart Termux app...' | lolcat
+echo 'Please restart Termux app...' | lolcat -t
 kill -9 $PPID
